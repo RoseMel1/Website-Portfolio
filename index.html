@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/catweb.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junrey Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7cd32a533a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <image src="images/logo 2.0.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1 class="jun">Hi, I'm <span>Junrey</span><br> Genzon, from <br>BSIT-3B</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ME.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="mel">  Hi! I am Junrey, a seasoned hacker with a passion for uncovering the intricacies of computer systems and network. 
+                        With a knack for navigating the digital landscape, I specialize in identifying and exploiting vulnerabilities to 
+                        strengthen cybersecurity. My expertise extends beyond the conventional, encompassing both offensive and defensive strategies.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Wiring</span><br>A simple digital circuits in Logic design</li>
+                                <li><span>Simple Java Program</span><br>Creating a simple java program </li>
+                                <li><span>Portfolio Website</span><br>Creating a personal portfolio website for my project</li> 
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Current Timeline</span><br>No experience as for now in IT field</li>
+                                <li><span>Summer Job</span><br>Worked as a delivery boy at a Water Refilling Station</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - Current</span><br>BS in Information Techonology at Bohol Island State University (Balilihan Campus)</li>
+                                <li><span>Junior High/Senior High</span><br>Dr. Cecelio Putong National Highschool</li>
+                                <li><span>Elementary</span><br>Lincod Elementary School</li> 
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------services----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>Wiring</h2>
+                    <p>In the realm of digital circuits, the efficiency and reliability of wiring are paramount. A well-organized and optimized wiring layout minimizes 
+                        signal interference, reduces propagation delays, and enhances overall performance. Engineers meticulously design these interconnections to ensure 
+                        seamless communication between different logic elements, mitigating the risk of errors and enhancing the circuit's speed.</p>
+                        <a href="#">Learn more</a>
+                </div>  
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2> Java Program</h2>
+                    <p>The simplicity of a Java program like "Hello World" transcends its minimalistic appearance. It is a gateway for newcomers to enter the world of programming, 
+                        a testament to the elegance of Java's syntax, and a timeless tradition in the coding community. So, whether you are embarking on your coding journey or revisiting the basics, 
+                        the "Hello World" program stands as a friendly greeting in the vast realm of Java programming.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-webflow"></i>
+                    <h2>Website</h2>
+                    <p>In the vast expanse of the internet, websites stand as digital gateways, offering windows into a multitude of information, services, and experiences. A website, at its core, 
+                        is a collection of interconnected web pages, accessible through a unique domain name, that provides a user-friendly interface for individuals to explore, interact, and gather information.
+                        A website is more than a collection of web pageS.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/logic.jpeg">
+                    <div class="layer">
+                        <h3>Logic circuit</h3>
+                        <p>Digital circuits form the backbone of modern computing and electronic systems, translating real-world information into binary code—combinations 
+                            of 0s and 1s—to perform various operations. These circuits are composed of interconnected electronic components such as transistors, logic gates, 
+                            and flip-flops, collectively designed to process and manipulate digital signals.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/code.jpg">
+                    <div class="layer">
+                        <h3>JAVA Program</h3>
+                        <p>Creating a simple java program as a beginner is a valuable introduction to Java language, 
+                            offering practical experience in coding, design, and project management. It's an enjoyable 
+                            way to express creativity and showcase your work to a wider audience.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/web.png">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>Creating a simple app design involves a thoughtful and user-centric approach to ensure a seamless 
+                            and visually appealing user experience.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!-- ------------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>junreygenzon550@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+63 9090266296</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" ></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Junrey Genzon-cv.pdf" target="_blank" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+               <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Junrey - Inspired by my Love <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+    <script>
+        
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+       
+    </script>
+
+    <script>
+        
+        var sidemeu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemeu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+        //https://script.google.com/macros/s/AKfycbykBYS35iAZbjTuFv5V_1LeJ8K9wMKqzOLXjV9bGndNPg7Hiwr_kgswS2lAvBe_9Xx1/exec
+
+    
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbykBYS35iAZbjTuFv5V_1LeJ8K9wMKqzOLXjV9bGndNPg7Hiwr_kgswS2lAvBe_9Xx1/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
